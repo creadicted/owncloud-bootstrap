@@ -4,6 +4,7 @@ owncloud-bootstrap
 This is an ownCloud theme that uses bootstrap as basis for the layout. 
 
 INSTALLATION:
+
 1. Copy the theme in to the themes folder.
 2. Add:
       /* Theme to use for ownCloud */
