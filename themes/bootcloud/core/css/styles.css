@@ -1,0 +1,163 @@
+/* Copyright (c) 2011, Konrad Koch, http://cradicted.com
+ * This file is licensed under the Affero General Public License version 3 or later.
+ */
+
+/* RESET CSS */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section { margin:0; padding:0; border:0; outline:0; font-weight:inherit; font-size:100%; font-family:inherit; vertical-align:baseline; cursor:default; }
+html, body { height:100%; overflow:auto; }
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display:block; }
+body { line-height:1.5; }
+table { border-collapse:separate; border-spacing:0; white-space:nowrap; }
+caption, th, td { text-align:left; font-weight:normal; }
+table, td, th { vertical-align:middle; }
+a { border:0; color:#000; text-decoration:none;}
+a, a *, input, input *, select, .button span, li, label { cursor:pointer; }
+ul { list-style:none; }
+body { background:#fefefe; font:normal .8em/1.6em "Helvetica Neue",Helvetica,Arial,FreeSans,sans-serif; color:#000; }
+
+
+/* HEADERS */
+
+/* INPUTS */
+
+/* SCROLLING */
+
+/* BUTTONS */
+
+/* Primary action button, use sparingly */
+
+/* CONTENT ------------------------------------------------------------------ */
+
+/* NAVIGATION ------------------------------------------------------------- */
+
+.navbar .nav .icon {
+	width:1.2em;
+	margin:0 4px 3px
+	padding:0px 0 0px;
+	
+}
+
+/* USER MENU */
+
+/* VARIOUS REUSABLE SELECTORS */
+
+/* ---- DIALOGS ---- */
+
+/* ---- CATEGORIES ---- */
+
+/* ---- APP SETTINGS ---- */
+
+/* ---- BREADCRUMB ---- */
+
+/* ---- APP STYLING ---- */
+
+/* Navigation: folder like structure */
+
+/* special rules for first-level entries and folders */
+
+/* Second level nesting for lists */
+
+/* drag and drop */
+
+/* Part where the content will be loaded into */
+
+/* settings area */
+
+
+/* icons */
+
+
+/* buttons */
+
+
+/* LOG IN & INSTALLATION ------------------------------------------------------------ */
+/* HEADER */
+#body-login #header { 
+	margin: -2em auto 0; 
+	text-align:center; 
+	height:4em;
+	padding:.7em 0 .7em;
+	background:#000000;
+}
+
+#body-login #header img { /* Login Logo */	
+	height:4em;
+}
+
+#body-login { 
+	background:#fff; 
+}
+
+/* Login Form */
+
+#login { 
+	min-height:30em; 
+	margin:2em auto 0; 
+	background:#fff; 
+}
+
+#login form { 
+	width:35em; 
+	margin:2em auto 5em; 
+	padding:3em 0 2em;
+	background: #F1F1F1;
+	border: 1px solid #E5E5E5;
+}
+
+#login .alert { 
+	width:35em; 
+	margin:2em auto 0em;
+}
+
+#login form #submit {
+	float:right;
+	margin: 0 3.5em 0 0;
+}
+
+#loginbackground 
+{
+	background: linear-gradient(45deg, #004f1e 0%, #19399c 100%) repeat scroll 0 0 transparent;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2) inset, 0 -3px 7px rgba(0, 0, 0, 0.2) inset;
+    padding: 40px 0;
+    position: relative;
+    margin: 0 0 1em 0;
+}
+
+/* Alternative Logins */
+#alternative-logins legend { margin-bottom:10px; }
+#alternative-logins li { height:40px; display:inline-block; white-space:nowrap; }
+
+
+
+/* APP INDEPENDAND ------------------------------------------------------------ */
+/* NOTIFICATION */
+#notification-container {
+	top: 0px; 
+	width: 100%; 
+	text-align: center; 
+	z-index: 101; 
+	line-height: 1.2;
+	position: fixed; 
+}
+
+#notification { 
+	z-index:101; 
+	display:none; 
+	position: relative;     
+	top: 56px;
+}
+
+#notification span {
+	
+}
+
+
+#notification span .cancel, #notification span .suggest, #notification span .replace {
+	font-weight:bold;
+	margin-left:1em;
+}
+#notification span .cancel:hover, #notification span .suggest:hover, #notification span .replace:hover {
+	color: #000000;
+    cursor: pointer;
+    opacity: 0.4;
+}
