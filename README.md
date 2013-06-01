@@ -10,8 +10,9 @@ INSTALLATION:
       "theme" => "bootscloud",
   inside of the config.php file.
 
-3. Add the content of the "util-extend.php" at the end of the lib/uti.php file. 
+3. Add the content of the "util-extend.php" at the end of the lib/util.php file. 
 4. clear the content of the core/css/styles.css file.
+5. clear the content of the apps/files/css/files.css file
 
 
 ABOUT THIS: 
